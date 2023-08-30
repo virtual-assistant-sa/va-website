@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header,
+section,
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+.service {
+  /* border: 1px solid #ddd; */
+  padding: 20px;
+  margin-bottom: 20px;
+  /* background-color: white; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  max-width: 800px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+header {
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 123, 255, 0.5) 0%,
+    rgba(0, 123, 255, 1) 100%
+  );
+  text-align: center;
+}
+
+.service:nth-child(odd) {
+  /* background: #ccc center/cover no-repeat; */
+  border: #ccc 3px solid;
+  border-radius: 10%;
+}
+
+.service:nth-child(even) {
+  /* background: #bbb center/cover no-repeat; */
+  border: #aaa 3px solid;
+  border-radius: 10%;
+}
+
+body {
+  background: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    ),
+    url("https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80")
+      bottom/cover no-repeat;
+}
